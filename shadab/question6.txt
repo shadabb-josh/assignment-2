@@ -1,0 +1,3 @@
+Question - How to un-stage changes from the staged area. write command for it.
+
+Answer - git reset or git restore, commands are used to un-stage changes from stage area

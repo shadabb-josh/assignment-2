@@ -1,0 +1,3 @@
+Question - What does the git `ls-files` command do, and what information does its output provide regarding the state of files in a Git repository?
+
+Answer - this command is used to list the files in the git index, it provides information about the state of the file, 1.stage, 2.ignored, 3.unmerged, 4.deleted, 5.cached
