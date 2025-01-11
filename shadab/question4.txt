@@ -1,0 +1,5 @@
+Question - Why is it not possible to create two branches with the names `fix` and `fix/bug` in a Git repository, and what causes this conflict?
+
+Answer - because git internally uses heirarchical naming conventions, like this .git/refs/heads/fix,
+
+if we name fix/bug like this it will be dir fix, eg: git/refs/heads/fix/bug

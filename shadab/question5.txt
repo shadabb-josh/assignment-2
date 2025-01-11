@@ -1,0 +1,17 @@
+Question - How to set multiple remote repositories for the same project? Explain the use case. you should have a working demo of it.
+
+Answer - we can set multiple remote references like this, 
+git add remote <remote-name> <remote-url>
+
+Example : 1. Created account on gitlab
+          2. Created a Repostory
+          3. Added remote reference to local machine
+            -- git add remote gitlab https://gitlab.com/shadabb-26/git-assignments
+            -- git push gitlab main  - (main branch)
+            -- git push gitlab shadab - (feat branch)
+        link for repo : https://gitlab.com/shadabb-26/git-assignments
+
+use case : 1. for synchronization between two platforms
+           2. Deployment to multiple enviroments
+           3. Backup Repository
+           4. Collaboration 
