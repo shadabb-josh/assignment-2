@@ -10,3 +10,8 @@ Example : 1. Created account on gitlab
             -- git push gitlab main  - (main branch)
             -- git push gitlab shadab - (feat branch)
         link for repo : https://gitlab.com/shadabb-26/git-assignments
+
+use case : 1. for synchronization between two platforms
+           2. Deployment to multiple enviroments
+           3. Backup Repository
+           4. Collaboration 
