@@ -1,3 +1,21 @@
 Question - How to un-stage changes from the staged area. write command for it.
 
 Answer - git reset or git restore, commands are used to un-stage changes from stage area
+
+Solution updated :-
+1. git reset:
+git reset is used to undo changes at the commit, staging, or working directory levels. (it can modify commit history)
+2. git restore:
+introduced in 2.23+ version, more focused on restoring file or un-staging changes, (it does not manipulate commit history)
+
+
+When to use which :-
+Use git reset : 
+1. You need to manipulate commit history
+2. You want to unstage-file or reser HEAD to previous commit
+3. you can use flags like --hard for destructive actions 
+
+Use git restore : 
+1. You are just focused on restoring file without worrying about the commit history
+2. You prefer a more explicit and less destructive approach
+3. You want to limit actions to the working directory or staging area 
